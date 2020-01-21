@@ -1,0 +1,36 @@
+body {
+  background-image: url("../img/ice.jpg");
+  background-size: cover;
+}
+
+#search_container {
+  //background-color: green;
+  height: 100px;
+  width: 40vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 40vh;
+}
+.ui {
+  border-radius: 100px;
+  border-style: solid;
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+  border-width: 10px;
+  height: 5vh;
+  outline: none !important;
+  text-align: center;
+}
+
+#search {
+  border-color: #096ded;
+  padding-left: 12px;
+}
+
+#button {
+  background-color: #096ded;
+  border-color: #096ded;
+  margin: auto;
+}
