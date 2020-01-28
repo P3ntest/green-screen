@@ -31,10 +31,11 @@ button {
 
 #top_left_title {
   padding-left: 100px;
-  padding-right: 30px;
+  padding-right: 0px;
   padding-top: 150px;
   font-family: 'Alata', sans-serif;
   font-size: 70px;
+  height: 200px;
 }
 
 button {
