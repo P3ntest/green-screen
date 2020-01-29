@@ -11,6 +11,7 @@ button {
 
 #top_screen {
   background-image: url("img/wallpaper.jpg");
+    height: 100vh;
 }
 
 #top_left_box {
@@ -73,7 +74,6 @@ button:hover {
 }
 
 .article {
-  height: 100vh;
   width: 100vw;
   background-size: cover;
 }
@@ -87,15 +87,38 @@ button:hover {
 
 #properties_article {
   //height: auto;
+  //background-color: #212121;
+  padding-bottom: 150px;
+  padding-top: 100px;
 }
 
 .property {
   //background-color: green;
   width: 18vw;
-  height: 37vh;
   margin: auto;
   margin-top: 40px;
   text-align: center;
+  transition: transform ease-in-out 0.2s, border ease-in-out 0.2s;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 15px;
+  border-width: 8px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.property:hover {
+  transform: scale(1.08);
+  border-color: #212121;
+}
+
+.property img {
+  filter: grayscale(1);
+}
+
+.property:hover img {
+  filter: none;
 }
 
 h2 {
@@ -127,4 +150,34 @@ p {
 
 elm {
   color: white;
+}
+
+#bottom_bar {
+  height: 20vh;
+  background-color: #4f4f4f;
+  transition: background ease-in-out 0.2s;
+}
+
+#bottom_bar:hover {
+  background-color: #096ded;
+}
+
+#hov_oko:hover {
+  border-color: #27a428;
+}
+
+#hov_ele:hover {
+  border-color: #fcda44;
+}
+
+#hov_can:hover {
+  border-color: #fa826e;
+}
+
+#hov_soz:hover {
+  border-color: #fccdac;
+}
+
+#hov_tea:hover {
+  border-color: #348fd9;
 }
