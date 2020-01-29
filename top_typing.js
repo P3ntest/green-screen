@@ -5,7 +5,7 @@ var options = {
   backSpeed: 0,
   backDelay: 1200,
   smartBackspace: true,
-  cursorChar: "",
+  cursorChar: '',
   loop: true
 };
 
